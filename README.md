@@ -1,5 +1,5 @@
 # Food-Delivery-System-Design-Practice
-Practicing system design principle and etc.
+Practicing system design principle and etc. I will be focusing on food delivery system which is very challenging desing. There are a lot of aspects to concern.
 
 # Functional requirements
 - As a user, I should be able to search available restaurant nearyby me.
