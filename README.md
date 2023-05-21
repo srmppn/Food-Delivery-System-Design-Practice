@@ -23,6 +23,6 @@ Let's say we have four tables User, Rider, Restaurant, Order. I would have rough
 [images]
 
 ### Challenge 
-- One challenging problem is that, a user orders foods everyday so the Order table would get larger and larger which results in slower query. There are a lot of techniques to optimize the query response time, one of them are Sharding which I'm going to use. Sharding the Order table helps reducing the query response time so it's much more faster. I will select date as a sharding key which means that a new shard is created everyday.
+- One challenging problem is that, a user orders foods everyday so the Order table would get larger and larger which results in slower query. There are a lot of techniques to optimize the query response time, one of them is Sharding which I'm going to use. Sharding the Order table helps reducing the query response time so it's much more faster. I will select date as a sharding key which means that a new shard is created everyday.
 - Finding nearby restaurants, The simpliest way to tell whether a restaraunt is nearby or not is by calculating the lattitude and longtitude but since we have large number of restaurants by doing that it would take a lot of resources to compute nearby restaurant. One of the techniques that I'm goint to use is Geohash. 
 - Finding nearby riders, finding nearby riders is a little bit tricky because usually restaurant location isn't changed while riders are moving around.
